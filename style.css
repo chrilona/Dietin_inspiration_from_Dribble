@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@500&family=Pacifico&family=Poppins:wght@200;500&display=swap');
+ *{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+ }
+#top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(226, 226, 19);
+    overflow: hidden;
+}
+nav span{
+    color: coral;
+}
+
+nav  a {
+    text-decoration: none;
+    color: #575860;
+    display:inline-flex;
+    justify-content: space-between;
+    font-size: smaller;
+    padding: 10px;
+    }
+.five{
+   margin: 10%;
+   width: 90%;
+}
+.five div{
+    display: flex;
+    background-color: #FACB3c;
+    border-radius: 40px;
+    width: 84%;
+    height: 10cm;
+}
+.five span{
+    font-style: italic;
+}
+.outer{
+    background-color: #FFFFFF;
+    width: 15cm;
+    font-weight: bold;
+    height:3em;
+    border-radius: 50px;
+    border-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 10mm;
+}
+.inner{
+    color: #FFFFFF;
+    width: 10em;
+    height: 3em;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #F08759, #EC5147  100%);
+    border-color:#EC5147;
+    box-shadow: 15px 15px 15px #F7CBCA;
+}
+.buttons{
+    text-align: center;
+}
+.footer{
+    display: inline-flex;
+    margin:0 10px 0 40px;
+    color: #707070;
+    width: 90%;
+    margin: 5%;
+}
+.footer p span{
+    color: coral;
+    font-weight: bolder;
+    font-size: 1.5cm;
+}
+.footer ul p{
+    font-weight: bolder;
+    color: black;
+}
+.footer ul li{
+    list-style: none;
+}
